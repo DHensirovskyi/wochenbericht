@@ -1,0 +1,35 @@
+Ich begann, mich mit der Theorie der OOP zu beschäftigen. Ich begann, mich mit der Syntax der Programmiersprache Java vertraut zu machen. Lernte ich die Theorie der vier Paradigmen der OOP.
+
+---
+
+Ich habe ein Repository erstellt, um den Fortschrit zu speichern.
+
+(https://github.com/DHensirovskyi/OOP-Praxis). Ich habe herausgefunden, wie Git funktioniert und welche grundlegenden Befehle es gibt. Ich habe Programm in Java geschrieben mit Methoden sayHello() und getYearOfBirth().
+
+30
+
+---
+
+Ich habe begonnen, die vier Paradigmen in die Praxis umzusetzen. Ich habe vier separate Aufgaben erstellt und committet, die jeweils mit einem anderen Paradigma verbunden sind.
+
+Und habe ich außerdem ein Programm geschrieben und commite, wo alle 4 Paradigmen zum Einsatz kommen
+
+---
+
+Ich habe gelernt, was eine Interface ist und wofür sie verwendet wird. Ich habe Interface in bestehende Aufgaben implementiert.Begonnen mit der Erstellung einer Website für die schnelle Erstellung von WochenBerichten
+
+---
+
+01
+
+Wiederholung. Ich habe gelernt über die Prozedurale und Funktionale Programmierung. Und habe dazu Aufgaben gelöst.
+
+---
+
+Verglich die 3 Programmierung Paradigmen. Website-Layout fertiggestellt und commitet.
+
+---
+
+02
+
+Wiederholung. Java CRUD (Verwaltung einer Bücherbibliothek) erstellt und committet. OOP und funktionale Programmierung im Projekt kombiniert.
