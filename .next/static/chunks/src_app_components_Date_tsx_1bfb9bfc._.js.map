@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/dmytrohensirovskyi/Projects/wochenbericht/src/app/components/Date.tsx"],"sourcesContent":["'use client';\n\nimport { useState } from 'react';\nimport { DatePicker } from '@mantine/dates';\nimport { MantineProvider } from '@mantine/core';\n\nexport default function Date() {\n  return (\n    <MantineProvider>\n      <DateComponent />\n    </MantineProvider>\n  );\n}\n\nfunction DateComponent() {\n  const [value, setValue] = useState<string | null>(null);\n\n  return (\n    <DatePicker\n      value={value}\n      onChange={setValue}\n    />\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;AACA;AACA;;;AAJA;;;;AAMe,SAAS;IACtB,qBACE,6LAAC,6MAAe;kBACd,cAAA,6LAAC;;;;;;;;;;AAGP;KANwB;AAQxB,SAAS;;IACP,MAAM,CAAC,OAAO,SAAS,GAAG,IAAA,yKAAQ,EAAgB;IAElD,qBACE,6LAAC,qMAAU;QACT,OAAO;QACP,UAAU;;;;;;AAGhB;GATS;MAAA","debugId":null}}]
-}

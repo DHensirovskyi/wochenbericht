@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/dmytrohensirovskyi/Projects/wochenbericht/src/app/page.tsx"],"sourcesContent":["export default function HomePage(){\n  return(\n    <main className=\"flex justify-center\">\n      <section className=\"max-w-[860px] py-0 px-6 lg:px-0 m-auto text-white border flex items-center justify-center\">\n        <h1>Hello</h1>\n      </section>\n    </main>\n  )\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;kBACd,cAAA,8OAAC;YAAQ,WAAU;sBACjB,cAAA,8OAAC;0BAAG;;;;;;;;;;;;;;;;AAIZ","debugId":null}}]
-}
