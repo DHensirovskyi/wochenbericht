@@ -11,7 +11,12 @@ interface DownloadBtnProps {
 export default function DownloadBtn({ cardsData }: DownloadBtnProps) {
   
   const handleDownload = () => {
-    const excelData: any[] = [];
+    const excelData: Array<{
+    'Datum': string;
+    'Zeit Start': string;
+    'Zeit Ende': string;
+    'Beschreibung': string;
+  }> = [];
     
     cardsData.forEach(card => {
       const dateStr = card.date ? card.date.toLocaleDateString('de-DE', {

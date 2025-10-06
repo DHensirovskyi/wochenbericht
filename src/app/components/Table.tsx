@@ -3,7 +3,7 @@ import { CardData } from "../page";
 
 interface TableProps {
   cardsData: CardData[];
-  updateCardData: (id: number, field: keyof CardData, value: any) => void;
+  updateCardData: (id: number, field: keyof CardData, value: string | Date | null) => void;
 }
 
 export default function Table({ cardsData, updateCardData }: TableProps) {

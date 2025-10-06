@@ -7,7 +7,7 @@ import { CardData } from "../page";
 
 interface CardProps {
   cardData: CardData;
-  updateCardData: (id: number, field: keyof CardData, value: any) => void;
+  updateCardData: (id: number, field: keyof CardData, value: string | Date | null) => void;
 }
 
 export default function Card({ cardData, updateCardData }: CardProps) {

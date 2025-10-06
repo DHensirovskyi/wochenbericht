@@ -23,11 +23,11 @@ export default function HomePage() {
     { id: 5, date: null, description: '', pauseStartTime: '00:00', pauseEndTime: '00:00', workStartTime: '00:00', workEndTime: '00:00' },
   ]);
 
-  const updateCardData = (id: number, field: keyof CardData, value: any) => {
-    setCardsData(prev => prev.map(card => 
-      card.id === id ? { ...card, [field]: value } : card
-    ));
-  };
+  const updateCardData = (id: number, field: keyof CardData, value: string | Date | null) => {
+  setCardsData(prev => prev.map(card => 
+    card.id === id ? { ...card, [field]: value } : card
+  ));
+};
 
   return (
     <main className="flex justify-center py-10 px-4 lg:px-0">
